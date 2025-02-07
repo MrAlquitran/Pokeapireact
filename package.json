@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MrAlquitran.github.io/Pokeapireact",
+  "homepage": "https://mralquitran.github.io/Pokeapireact/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
