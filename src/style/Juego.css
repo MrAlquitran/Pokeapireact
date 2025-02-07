@@ -1,0 +1,73 @@
+.juego-ahorcado-container {
+    background-image: url('./img/Background.b373eb68.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pokemon-imagen {
+    filter: brightness(0) invert(0);
+    transition: filter 0.3s ease;
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.pokemon-imagen.visible {
+    filter: none;
+}
+
+.palabra-container {
+    background-color: rgba(163, 163, 163, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#alfabeto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+#alfabeto button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#alfabeto button.desactivado {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#reiniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

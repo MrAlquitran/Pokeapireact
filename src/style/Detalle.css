@@ -1,0 +1,53 @@
+.volver-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.volver-btn:hover {
+    background-color: #0056b3;
+}
+
+.detalle-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.detalle-container h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.detalle-container img:first-of-type {
+    width: 300px;
+    height: auto;
+}
+
+.detalle-container .gif-images img {
+    width: 150px;
+    height: auto;
+}
+
+.detalle-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.detalle-info p {
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
